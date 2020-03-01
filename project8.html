@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  .card{background-color: darkgrey;
+
+  }
+  
+  </style>
+</head>
+<body style="background-color: black;">
+  <!-- The slideshow -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"><span class="w3-tag w3-xlarge w3-blue-grey"> W</span>
+          <a class="navbar-brand" href="#"><span class="w3-tag w3-xlarge w3-blue-grey">a</span>
+            <a class="navbar-brand" href="#"><span class="w3-tag w3-xlarge w3-blue-grey">t</span>
+              <a class="navbar-brand" href="#"><span class="w3-tag w3-xlarge w3-blue-grey">c</span>
+                <a class="navbar-brand" href="#"><span class="w3-tag w3-xlarge w3-blue-grey">h</span>
+                  <a class="navbar-brand" href="#"><span class="w3-tag w3-xlarge w3-blue-grey">e</span>
+                    <a class="navbar-brand" href="#"><span class="w3-tag w3-xlarge w3-blue-grey">s</span>           
+
+         </a>
+  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+       </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+
+           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+             Web Development
+             </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">html</a>
+              <a class="dropdown-item" href="#">css</a>
+              <a class="dropdown-item" href="#">JavaScript</a>
+            </div>
+          </li>
+
+          
+
+        
+
+          <button type="button" class="btn " data-toggle="collapse" data-target="#demo1" style="background-color: gainsboro;" ><i class="fa fa-search"></i> Search</button>
+    <div id="demo1" class="collapse">
+      <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-success " type="submit"><i class="fa fa-search"></i> Search</button>
+      </form>
+      
+    </div>
+          
+        </ul>
+        </div>
+  
+      </nav>
+
+<!-- The slideshow -->
+
+
+<!-- The slideshow -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <h4>h4 heading <small>secondary text</small></h4>
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ5OfivyPXBEWAzz6KirF5MSzMTVgAmBkk-1ukpvw5HGOGI9jgQ" alt="Los Angeles" width="508" height="1100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.guide-montres.com/wp-content/uploads/2018/11/l36424566_1-1100x500.jpg "  width="1100" height="508">
+    </div>
+    <div class="carousel-item">
+        <img src="https://www.guide-montres.com/wp-content/uploads/2017/02/BRM_V12-1100x500.jpg "  width="1100" height="508">
+      </div>
+      <div class="carousel-item">
+        <img src="https://techmortals.com/wp-content/uploads/2018/10/5-1100x500.jpg "  width="1100" height="508">
+      </div> 
+
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<!-- The slideshow -->
+
+    <div class="row">
+        <div class="col-lg-4 col-md-6 w3-card-4">
+            <div class="card" style="width:400px">
+          <img class="card-img-top" src="https://www.braunschweiger.com/wp-content/uploads/2019/08/0026b63f7ed0fb5d8c4b3753fc57ba2a-400x250.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text.</p>
+            <!-- The slideshow -->
+            <button type="button" class="btn btn-primary" data-toggle="modal"   data-target="#myModal">byen</button>
+
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                  
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Modal Heading</h4>
+                      <img src="" alt="">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <h4>name <small> BIG HISTORY </small></h4>
+                      <h4>modle <small>p++</small></h4>
+                      <h4>Production Date <small>2020</small></h4>
+                      <h4>Made country <small>Switzerland</small></h4>
+                      <h4>price <small>500.000$</small></h4>
+                    </div>
+                    
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              
+    
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 w3-card-4">
+        <div class="card" style="width:400px">
+      <img class="card-img-top" src="https://tempoandtime.com/wp-content/uploads/2019/04/IMG_3004_a-400x250.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">byen</h4>
+        <p class="card-text">Some example text.</p>
+        
+        <button type="button" class="btn btn-primary" data-toggle="modal"   data-target="#myModal">byen</button>
+
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Modal Heading</h4>
+                  <img src="" alt="">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <h4>name <small> BIG HISTORY </small></h4>
+                  <h4>modle <small>p++</small></h4>
+                  <h4>Production Date <small>2020</small></h4>
+                  <h4>Made country <small>Switzerland</small></h4>
+                  <h4>price <small>500.000$</small></h4>
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 w3-card-4">
+    <div class="card" style="width:400px">
+  <img class="card-img-top" src="https://i.dmarge.com/2019/10/OMEGA-Seamaster-Diver-300M-400x250.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    <button type="button" class="btn btn-primary" data-toggle="modal"   data-target="#myModal">byen</button>
+
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Modal Heading</h4>
+              <img src="" alt="">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <h4>name <small> BIG HISTORY </small></h4>
+              <h4>modle <small>p++</small></h4>
+              <h4>Production Date <small>2020</small></h4>
+              <h4>Made country <small>Switzerland</small></h4>
+              <h4>price <small>500.000$</small></h4>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 w3-card-4">
+    <div class="card" style="width:400px">
+  <img class="card-img-top" src="https://watchesyoucanafford.com/wp-content/uploads/2019/12/wyca-liv-gx1-a-sky-blue-04-400x250.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    
+    <button type="button" class="btn btn-primary" data-toggle="modal"   data-target="#myModal">byen</button>
+
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Modal Heading</h4>
+              <img src="" alt="">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <h4>name <small> BIG HISTORY </small></h4>
+              <h4>modle <small>p++</small></h4>
+              <h4>Production Date <small>2020</small></h4>
+              <h4>Made country <small>Switzerland</small></h4>
+              <h4>price <small>500.000$</small></h4>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+</div>
+
+
+<div class="col-lg-4 col-md-6 w3-card-4">
+    <div class="card" style="width:400px">
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdF4xbPbFfAp0rBIio2F5m8uidUi5nsMgv-rvS397tFBdnOVTW" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    
+    <button type="button" class="btn btn-primary" data-toggle="modal"   data-target="#myModal">byen</button>
+
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Modal Heading</h4>
+              <img src="" alt="">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <h4>name <small> BIG HISTORY </small></h4>
+              <h4>modle <small>p++</small></h4>
+              <h4>Production Date <small>2020</small></h4>
+              <h4>Made country <small>Switzerland</small></h4>
+              <h4>price <small>500.000$</small></h4>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 w3-card-4 ">
+    <div class="card" style="width:400px">
+  <img class="card-img-top" src="https://tgtwatches.com/wp-content/uploads/sites/182/2019/05/CUST-095-400x250.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    
+    <button type="button" class="btn btn-primary" data-toggle="modal"   data-target="#myModal">byen</button>
+
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Modal Heading</h4>
+              <img src="" alt="">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <h4>name <small> BIG HISTORY </small></h4>
+              <h4>modle <small>p++</small></h4>
+              <h4>Production Date <small>2020</small></h4>
+              <h4>Made country <small>Switzerland</small></h4>
+              <h4>price <small>500.000$</small></h4>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+</div>
+      
+
+
+    </div>
+    <br>
+    <br>
+    <!-- The slideshow -->
+    
+    <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+      <div class="w3-row-padding">
+        <div class="w3-col s4">
+          <h4>Contact</h4>
+          <p>Questions? Go ahead.</p>
+          <form action="/action_page.php" target="_blank">
+            <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+            <button type="submit" class="w3-button w3-block w3-black">Send</button>
+          </form>
+        </div>
+  
+        <div class="w3-col s4">
+          <h4>About</h4>
+          <p><a href="#">About us</a></p>
+          <p><a href="#">We're hiring</a></p>
+          <p><a href="#">Support</a></p>
+          <p><a href="#">Find store</a></p>
+         
+        </div>
+  
+        <div class="w3-col s4 w3-justify">
+          <h4>Store</h4>
+          <p><i class="fa fa-fw fa-map-marker"></i> RAMZI</p>
+          <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
+          <p><i class="fa fa-fw fa-envelope"></i> ex@mail.com</p>
+          <h4>We accept</h4>
+          <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+          <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+          <br>
+          <i class="fa fa-facebook-official w3-hover-opacity w3-xlarge"></i>
+          <i class="fa fa-instagram w3-hover-opacity w3-xlarge"></i>
+          <i class="fa fa-snapchat w3-hover-opacity w3-xlarge"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity w3-xlarge"></i>
+          <i class="fa fa-twitter w3-hover-opacity w3-xlarge"></i>
+          <i class="fa fa-linkedin w3-hover-opacity w3-xlarge"></i>
+        </div>
+      </div>
+    </footer>
+  
+    <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+  
+    <!-- End page content -->
+  </div>
+  
+  <!-- Newsletter Modal -->
+  
+
+
+
+
+        
+     
+
+
+</body>
+</html>
