@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="w3-container">
+    <button onclick="ar()"> عربية</button>
+    <button onclick=" en()">englieche</button>
+
+<div id="arb" >
+<h2>Accordions</h2>
+<h2>Accordions</h2>
+<img src="rockt.jpg" alt="">
+</div>
+
+</div>
+<script>
+     setInterval(function ar(){
+        document.getElementById("arb").innerHTML= "<h2>تعلم عربية </h2>" + "<p>اول كلمة في عربية</p>";
+
+    },6000)
+    function en(){
+        document.getElementById("arb").innerHTML="<h2>Accordions</h2>"+"<h2>Accordions englieche</h2>";
+    }
+
+
+
+</script>
+</body>
+</html>
